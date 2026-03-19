@@ -19,6 +19,7 @@ return {
 
     -- Allows extra capabilities provided by blink.cmp
     'saghen/blink.cmp',
+    version = "*",
   },
   config = function()
     vim.api.nvim_create_autocmd('LspAttach', {
@@ -117,4 +118,3 @@ return {
     end
   end,
 }
-
